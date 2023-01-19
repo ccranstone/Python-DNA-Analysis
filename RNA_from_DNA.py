@@ -16,7 +16,7 @@ for i in dna_sequence:
 
 print("DNA sequence accepted.")
 print(" ")
-print("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+print("--------------------------------------------------------------------------------------------------------------")
 print(" ")
 
 # This function will take our regular DNA sequence and return the complimentary sequence as a string.
@@ -72,7 +72,7 @@ print("A-T base pairs: " + str(AT_score))
 print("G-C base pairs: " + str(GC_score))
 print("G-C percent is: " + str(percent_GC(dna_sequence)) + " %")
 print(" ")
-print("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+print("----------------------------------------------------------------------------------------------------")
 print(" ")
 
 # Functions for counting start and stop codons in an RNA sequence.
@@ -99,7 +99,7 @@ print(" ")
 print("The reverse complimentary RNA transcript is seen below. The program has identified " + str(count_start_codon(reverse_complimentary_transcript)) + " start codons and " + str(count_stop_codon(reverse_complimentary_transcript)) + " stop codons in this RNA sequence.")
 print("5' - " + str(reverse_complimentary_transcript))
 print(" ")
-print("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+print("----------------------------------------------------------------------------------------------------")
 print(" ")
 
 # These questions ask the user if they would like to save a transcript of choice to a text file.
