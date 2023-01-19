@@ -1,6 +1,6 @@
 # Our initial DNA sequence input.
 print(" ")
-dna_input = input("Please enter your DNA sequence: ")
+dna_input = input("Please enter your DNA sequence with 'A', 'T', 'G' and 'C': ")
 dna_sequence = dna_input.upper()
 reverse_dna_sequence = dna_sequence[::-1]
 print(" ")
